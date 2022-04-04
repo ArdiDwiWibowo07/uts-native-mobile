@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="11dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/ic_btnback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="223dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
+        app:srcCompat="@drawable/profil" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="Ardi Dwi Wibowo"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lblack"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="203110018"
+        android:textSize="20sp"
+        android:fontFamily="@font/lreg"
+        android:textColor="@color/abu"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnGithub"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="110dp"
+        android:background="@drawable/ic_igithub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnWa"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="23dp"
+        android:background="@drawable/ic_iwhatsapp"
+        app:layout_constraintStart_toEndOf="@+id/btnGithub"
+        app:layout_constraintTop_toTopOf="@+id/btnGithub" />
+
+    <Button
+        android:id="@+id/btnIg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_iinstragram"
+        android:layout_marginStart="23dp"
+        app:layout_constraintStart_toEndOf="@+id/btnWa"
+        app:layout_constraintTop_toTopOf="@+id/btnWa" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="23dp"
+        android:background="@drawable/ic_ifacebook"
+        app:layout_constraintStart_toEndOf="@+id/btnIg"
+        app:layout_constraintTop_toTopOf="@+id/btnIg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+        android:background="@drawable/ic_bg_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/lblack"
+        android:text="Bangun Datar"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/lreg"
+        android:text="Luas dan Keliling"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="620dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <View
+        android:id="@+id/btnPersegi"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnpersegi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <View
+        android:id="@+id/btnPerpan"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/btnperan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnPersegi" />
+
+    <View
+        android:id="@+id/btnLingkaran"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnlingkaran"
+        app:layout_constraintStart_toStartOf="@+id/btnPersegi"
+        app:layout_constraintTop_toBottomOf="@+id/btnPersegi" />
+
+    <View
+        android:id="@+id/btnSegitiga"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btnsegitiga"
+        app:layout_constraintEnd_toEndOf="@+id/btnPerpan"
+        app:layout_constraintTop_toTopOf="@+id/btnLingkaran" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/lreg"
+        android:text="Informasi"
+        android:textColor="@color/abu"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/btnLingkaran"
+        app:layout_constraintTop_toBottomOf="@+id/btnLingkaran" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="346dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_tbpanjang"
+        android:fontFamily="@font/lblack"
+        android:text="ABOUT ME"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

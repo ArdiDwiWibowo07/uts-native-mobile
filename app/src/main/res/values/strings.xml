@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HitungBangunDatar</string>
+    <string name="image_hero">Image Hero</string>
+    <string name="persegi">Persegi</string>
+    <string name="persegipanjang">Persegi Panjang</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="belahketupat">Belah Ketupat</string>
+    <string name="layang2">Layang-Layang</string>
+    <string name="trapezium">Trapezium</string>
+    <string name="jajar">Jajar Genjang</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="luas">%s</string>
+    <string name="keliling">%s</string>
+    <string name="panjang">%s</string>
+    <string name="lebar">%s</string>
+</resources>
