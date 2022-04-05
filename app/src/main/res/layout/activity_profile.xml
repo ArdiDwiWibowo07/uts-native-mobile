@@ -14,7 +14,8 @@
         android:layout_marginTop="44dp"
         android:background="@drawable/ic_btnback"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -56,11 +57,12 @@
         android:id="@+id/btnGithub"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="24dp"
         android:layout_marginStart="110dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/ic_igithub"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnWa"
@@ -69,16 +71,18 @@
         android:layout_marginStart="23dp"
         android:background="@drawable/ic_iwhatsapp"
         app:layout_constraintStart_toEndOf="@+id/btnGithub"
-        app:layout_constraintTop_toTopOf="@+id/btnGithub" />
+        app:layout_constraintTop_toTopOf="@+id/btnGithub"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnIg"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:background="@drawable/ic_iinstragram"
         android:layout_marginStart="23dp"
+        android:background="@drawable/ic_iinstragram"
         app:layout_constraintStart_toEndOf="@+id/btnWa"
-        app:layout_constraintTop_toTopOf="@+id/btnWa" />
+        app:layout_constraintTop_toTopOf="@+id/btnWa"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnFacebook"
@@ -87,5 +91,6 @@
         android:layout_marginStart="23dp"
         android:background="@drawable/ic_ifacebook"
         app:layout_constraintStart_toEndOf="@+id/btnIg"
-        app:layout_constraintTop_toTopOf="@+id/btnIg" />
+        app:layout_constraintTop_toTopOf="@+id/btnIg"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
